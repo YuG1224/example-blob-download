@@ -1,0 +1,20 @@
+{
+  "name": "example-blob-download",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js -o bundle.js -t [ babelify --presets [ es2015 ] ] -d"
+  },
+  "author": {
+    "name": "Yuji Yamaguchi",
+    "email": "YuG1224@users.noreply.github.com",
+    "url": "https://blog.yug1224.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0",
+    "encoding-japanese": "^1.0.24"
+  }
+}

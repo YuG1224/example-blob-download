@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "build": "browserify main.js -o bundle.js -t [ babelify --presets [ es2015 ] ] -d"
+    "build": "browserify main.js -o bundle.js -t [ babelify --presets [ env ] ]"
   },
   "author": {
     "name": "Yuji Yamaguchi",
@@ -13,8 +13,9 @@
   },
   "license": "ISC",
   "dependencies": {
-    "babel-preset-es2015": "^6.3.13",
-    "babelify": "^7.2.0",
-    "encoding-japanese": "^1.0.24"
+    "babel-preset-env": "^1.1.8",
+    "babelify": "^7.3.0",
+    "encoding-japanese": "^1.0.25",
+    "ua-parser-js": "^0.7.12"
   }
 }
